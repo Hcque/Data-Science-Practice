@@ -1,3 +1,3 @@
-In the mobile-based anti-fraud context, we usually have a series data for that order behavior, how to gain information as much as possiable to detect "bad guys" is an open problem for banks. 
+In the online anti-fraud context, we usually have time series data for each particular order behavior, it includes load in the APP, click specific button, stay in one APP page, and make order. How to gain statistical information as much as possiable to detect "bad guys" is still an challenging problem for banks.
 
-Here we are inspiried by a time series extraction package called tsfresh, it basically treat time series as physical or mathematical models, for example, we fit an ARIMA model and use coefficients as features, and so on. and here are two notebooks to illustrate this idea.
+Here we are inspiried by a time series extraction package called tsfresh, please check [https://tsfresh.readthedocs.io/en/latest/], it basically treat time series as physical or mathematical models, for example, we fit an ARIMA model and use coefficients as features, and so on. So here are two notebooks to illustrate this idea.
